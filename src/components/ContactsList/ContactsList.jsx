@@ -1,10 +1,10 @@
 import React from 'react';
-import s from './ContactList.module.css';
+import s from './ContactsList.module.css';
 import { useDispatch, useSelector } from 'react-redux';
 import contactActions from '../../redux/contacts/contactActions';
-import { getVisibleContacts } from '../../redux/contacts/contactsSelectors';
+import { getVisibleContacts } from '../../redux/contacts/contactSelectors';
 // import { IoIosContact } from 'react-icons/io';
-import { TiDeleteOutline } from 'react-icons/ti';
+// import { TiDeleteOutline } from 'react-icons/ti';
 
 const ContactsList = () => {
   const contacts = useSelector(getVisibleContacts);
@@ -24,7 +24,7 @@ const ContactsList = () => {
             type="button"
             onClick={() => onDeleteContact(id)}
           >
-            <TiDeleteOutline className={s.icon} />
+            {/* <TiDeleteOutline className={s.icon} /> */}
             Delete
           </button>
         </li>

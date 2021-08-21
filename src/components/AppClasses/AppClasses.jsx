@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Section from './Section/Section';
-import FormHooks from './Form/FormHook';
-import ContactsList from './ContactsList/ContactsList';
-import Filter from './Filter/Filter';
+import Section from '../Section/Section';
+import FormHooks from '../Form/FormClasses';
+import ContactsList from '../ContactsList/ContactsList';
+import Filter from '../Filter/Filter';
 
 
 export default class App extends Component {

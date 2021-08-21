@@ -3,7 +3,7 @@ import shortid from 'shortid';
 import { useDispatch } from 'react-redux';
 import contactActions from '../../redux/contacts/contactActions';
 import s from './Form.module.css';
-import { IoIosPersonAdd } from 'react-icons/io';
+// import { IoIosPersonAdd } from 'react-icons/io';
 
 const FormHooks = () => {
   const [name, setName] = useState('');
@@ -71,7 +71,7 @@ const FormHooks = () => {
           />
         </label>
         <button className={s.formBtn} type="submit">
-          <IoIosPersonAdd className={s.icon} />
+          {/* <IoIosPersonAdd className={s.icon} /> */}
           Add contact
         </button>
       </form>
