@@ -1,5 +1,7 @@
+// import types from './contactsTypes';
 import { v4 as unId } from 'uuid';
 import { createAction } from '@reduxjs/toolkit';
+
 
 const addContact = createAction('contacts/Add', ({ name, number }) => {
   return {
@@ -15,4 +17,8 @@ const deleteContact = createAction('contacts/Delete');
 
 const changeFilter = createAction('contacts/ChangeFilter');
 
-export default {addContact,deleteContact,changeFilter}
+
+
+
+
+export default { addContact, deleteContact, changeFilter };

@@ -2,7 +2,7 @@
   padding: 20px 30px;
   margin: 10px auto;
   max-width: 500px;
-  background-color: rgb(173, 226, 228);
+  background-color: rgb(250, 215, 242);
   border: 3px solid rgb(248, 246, 244);
   border-radius: 10px;
 }
@@ -12,10 +12,5 @@
   font-size: 22px;
   font-family: "Franklin Gothic Medium";
   font-weight: 600;
-  color: #4545f1;
-}
-.icon {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
+  color: rgb(83, 41, 110);
 }

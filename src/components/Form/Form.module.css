@@ -14,8 +14,9 @@
   padding: 5px 10px;
   padding: 6px;
   cursor: pointer;
-  color: rgb(10, 121, 121);
-  border: 2px solid #0c850c;
+  color: rgb(83, 41, 110);
+  border: 2px solid rgb(83, 41, 110);
+  background-color: rgb(224, 250, 152);
   border-radius: 20px;
   font-weight: 500;
   font-size: 16px;
@@ -24,8 +25,8 @@
 
 .formBtn:hover,
 .formBtn:focus {
-  color: #faf4f3;
-  background-color: #0c850c;
+  color: rgb(224, 250, 152);
+  background-color: rgb(83, 41, 110);
   font-weight: 500;
-  border: 2px solid #eaf7f6;
+  border: 2px solid rgb(224, 250, 152);
 }
